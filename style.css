@@ -1,0 +1,236 @@
+/*Inicio*/
+.fondo {
+  background-image: url(./Imagenes/fondo7.jpg);
+  background-position: center;
+}
+
+.img-logo {
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+}
+
+.nav-item {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.navbar {
+  -webkit-box-shadow: 4px 4px 7px #08949c;
+          box-shadow: 4px 4px 7px #08949c;
+}
+
+.nav-link {
+  color: white;
+  margin-top: 90px;
+}
+
+.nav-link:hover {
+  color: #08949c;
+}
+
+.SLOGAN {
+  font-family: "Square Peg", cursive;
+  margin: 30px;
+  color: #08949c;
+  font-size: 50px;
+  margin-left: 10%;
+}
+
+.presentacion {
+  margin-top: 70px;
+}
+
+.hangar02 {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 7px #f7f7f7;
+          box-shadow: 0 0 7px #f7f7f7;
+  height: 100%;
+}
+
+.hangar02:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+.textoinicio {
+  font-family: 'Bebas Neue', cursive;
+  color: aliceblue;
+}
+
+.ft {
+  background-color: black;
+  -webkit-box-shadow: 0px 0px 8px #f6f8f5;
+          box-shadow: 0px 0px 8px #f6f8f5;
+}
+
+.ft-hangar {
+  color: #edecec;
+  font-size: 30px;
+}
+
+.ft-titulo {
+  font-size: "Bebas Neue", cursive;
+  color: #08949c;
+}
+
+.ft-texto {
+  color: white;
+}
+
+.prs {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.carta1 {
+  background-color: #100f0f;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px #f6f8f5;
+          box-shadow: 0px 0px 8px #f6f8f5;
+  padding: 20px;
+}
+
+.carta2 {
+  background-color: #100f0f;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px #f6f8f5;
+          box-shadow: 0px 0px 8px #f6f8f5;
+  padding: 20px;
+}
+
+.carta3 {
+  background-color: #100f0f;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px #f6f8f5;
+          box-shadow: 0px 0px 8px #f6f8f5;
+  padding: 20px;
+}
+
+.carta4 {
+  background-color: #100f0f;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px #f6f8f5;
+          box-shadow: 0px 0px 8px #f6f8f5;
+  padding: 20px;
+}
+
+.imgcarta2, .imgcarta4 {
+  height: 250px;
+}
+
+.titulocarta {
+  color: white;
+}
+
+.card-text {
+  color: #edecec;
+  margin-top: 20px;
+}
+
+.card3, .card4 {
+  padding: 30px;
+}
+
+.fondo {
+  height: 100%;
+}
+
+#portada {
+  margin-left: 50px;
+  padding: 70px;
+}
+
+.anclaflex1, .novoplack1, .acero1, .LP1 {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+.titulo-ancla, .titulo-novo, .titulo-acero, .titulo-LP {
+  margin-top: 50px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-align: left;
+  margin-left: 15%;
+  font-size: 50px;
+}
+
+.img-ancla, .img-novo, .img-acero, .img-LP {
+  height: 200px;
+  width: 300px;
+  -webkit-box-shadow: 0px 0px 8px #f6f8f5;
+          box-shadow: 0px 0px 8px #f6f8f5;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.texto-ancla, .texto-novo, .texto-acero, .texto-LP {
+  color: #edecec;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.fondoquienessomos {
+  width: 100%;
+  height: 100%;
+  background-image: url(imagenes/fondo7.jpg);
+}
+
+.texto-quienes1 {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.texto-quienes {
+  color: #edecec;
+  font-family: 'Libre Baskerville', serif;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.img-nosotros {
+  max-height: 70vh;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 140vh;
+  margin-left: 8%;
+}
+
+.prs-objetivos {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.texto-objetivos {
+  color: #edecec;
+  font-family: 'Libre Baskerville', serif;
+  padding: 20px;
+}
+
+.mapas {
+  height: 200px;
+  width: 100px;
+}
+
+.contacto-forma {
+  padding: 5px;
+}
+
+.icono {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

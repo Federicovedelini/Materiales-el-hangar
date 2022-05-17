@@ -1,0 +1,373 @@
+//Colores//
+$primario:white;
+$secundario: rgb(237, 236, 236);
+$terciario: rgb(8, 148, 156);
+$cuarto: rgb(156, 240, 169);
+
+//Medidas//
+
+$alto: 200px;
+$gordo:400px;
+$flaco:20px;
+$bajo:50px;
+$petiso:10px;
+
+//letras//
+
+$autos: 'Bebas Neue', cursive;
+$bici:'Square Peg', cursive;
+
+
+
+
+
+
+
+
+
+
+
+/*Inicio*/
+
+
+.fondo{
+    background-image: url(./Imagenes/fondo7.jpg);
+    background-position: center;
+    
+    
+            
+        
+}
+
+
+.img-logo{
+    width: auto;
+    height: auto;
+    margin-left: $petiso;
+}
+
+.nav-item{
+    font-size: $flaco;
+    margin-top: 30px;
+}
+
+.navbar{
+    box-shadow: 4px 4px 7px rgb(8, 148, 156);
+}
+
+.nav-link{
+    color: $primario;
+    margin-top: $bajo +40;
+}
+
+.nav-link:hover{
+    color: $terciario;
+}
+
+.SLOGAN{
+    font-family:$bici;
+    margin: 30px;
+     color: $terciario;
+     font-size: 50px; 
+     margin-left: 10%;
+
+   
+    }
+    
+
+
+
+.presentacion{
+    margin-top: $bajo + 20;
+}
+
+.hangar02{
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgb(247, 247, 247);
+   height: 100%;
+   
+
+    
+
+}
+
+.hangar02:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow:hidden;
+}
+
+.textoinicio{
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+    
+
+
+
+
+}
+
+
+//footer// 
+
+.ft{
+    background-color: black;
+    box-shadow: 0px 0px 8px rgb(246, 248, 245);
+
+}
+
+.ft-hangar{
+    color: $secundario;
+    font-size: 30px;
+   
+}
+
+
+
+
+.ft-titulo{
+    font-size: $autos ;
+    color: $terciario;
+}
+
+.ft-texto{
+    color: $primario;
+   
+}
+
+
+
+//SECCION PRODUCTOS//
+
+
+
+
+.prs{
+    color: $primario;
+    text-transform: uppercase;
+    font-family: $autos ;
+    font-size: $bajo;
+    padding: $flaco;
+    
+}
+
+
+
+//cartas//
+
+
+
+
+
+
+@mixin tuneo-carta {
+    background-color:rgb(16, 15, 15);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(246, 248, 245);
+   padding: 20px;
+
+    
+    
+}
+
+.carta1{
+    @include tuneo-carta;
+  
+
+}
+
+.carta2{
+    @include tuneo-carta;
+
+}
+
+.carta3{
+    @include tuneo-carta;
+
+}
+
+.carta4{
+    @include tuneo-carta;
+
+}
+
+
+.imgcarta2, .imgcarta4{
+height: $alto +50;
+}
+
+
+
+.titulocarta{
+    color: $primario;
+   
+    
+}
+
+.card-text{
+    color: $secundario;
+    margin-top: 20px;
+}
+
+.card3, .card4{
+    padding: 30px;
+}
+
+
+
+
+//SECCION DISTRIBUIDORES//
+
+.fondo{
+    height: 100%;
+}
+
+
+
+
+
+
+#portada{
+    margin-left: $bajo;
+    padding: $bajo +20;
+}
+
+
+
+
+.anclaflex1, .novoplack1, .acero1, .LP1{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 50px;
+   
+   
+}
+
+.titulo-ancla, .titulo-novo, .titulo-acero, .titulo-LP{
+    margin-top: $bajo;
+    font-family: $autos;
+    color: $primario;
+    text-align: left;
+    margin-left: 15%;
+    font-size: $bajo;
+    
+
+}
+
+.img-ancla, .img-novo, .img-acero, .img-LP{
+    height: 200px;
+    width: 300px;
+    box-shadow: 0px 0px 8px rgb(246, 248, 245);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   
+
+}
+
+.texto-ancla, .texto-novo, .texto-acero, .texto-LP{
+    color: $secundario;
+    font-family: 'Oswald', sans-serif; ;
+    text-transform: uppercase;
+   padding:$flaco +10;
+    font-size: $flaco  ;
+    
+
+   
+
+}
+
+
+
+
+//QUIENES SOMOS SECCION//
+
+.fondoquienessomos{
+    width: 100%;
+    height: 100%;
+    background-image: url(imagenes/fondo7.jpg);
+}
+
+.texto-quienes1{
+    max-width: 1000px;
+    width:100% ;
+    
+}
+
+
+.texto-quienes{
+    color: $secundario;
+    font-family: 'Libre Baskerville', serif;
+    
+   padding:$flaco ;
+    font-size: $flaco +10  ;
+
+
+}
+
+
+
+    
+
+
+.img-nosotros{
+   max-height: 70vh;
+   aspect-ratio: 16/9;
+   object-fit: cover;
+   
+   max-width: 140vh;
+   margin-left: 8%;
+  
+  
+
+  
+   
+  
+
+}
+
+
+.prs-objetivos{
+    color: $primario;
+    text-transform: uppercase;
+    font-family: $autos ;
+    font-size: $bajo;
+    padding: $flaco;
+    margin-top: $bajo;
+}
+
+.texto-objetivos{
+    color: $secundario;
+    font-family: 'Libre Baskerville', serif;
+    
+   padding:$flaco ;
+    
+   
+
+}
+
+
+.mapas{
+    height: 200px;
+    width: 100px;
+  
+   
+
+}
+
+
+
+//SECCION CONTACTO//
+
+
+
+   
+.contacto-forma{
+    padding: 5px;
+   
+    
+}
+
+.icono{
+    color: $primario;
+}
