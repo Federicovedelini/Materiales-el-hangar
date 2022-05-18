@@ -31,7 +31,7 @@ $bici:'Square Peg', cursive;
 
 
 .fondo{
-    background-image: url("./Imagenes/fondo7.jpg");
+    background-image: url('imagenes/fondo7.jpg');
     background-position: center;
     
     
@@ -43,7 +43,7 @@ $bici:'Square Peg', cursive;
 .img-logo{
     width: auto;
     height: auto;
-    margin-left: $petiso;
+    margin-left: $petiso +10;
 }
 
 .nav-item{
