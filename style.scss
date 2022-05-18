@@ -31,7 +31,7 @@ $bici:'Square Peg', cursive;
 
 
 .fondo{
-    background-image: url(./Imagenes/fondo7.jpg);
+    background-image: url("./Imagenes/fondo7.jpg");
     background-position: center;
     
     
@@ -99,6 +99,7 @@ $bici:'Square Peg', cursive;
 .textoinicio{
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
+   
     
 
 
@@ -112,6 +113,7 @@ $bici:'Square Peg', cursive;
 .ft{
     background-color: black;
     box-shadow: 0px 0px 8px rgb(246, 248, 245);
+  
 
 }
 
@@ -160,10 +162,11 @@ $bici:'Square Peg', cursive;
 
 
 @mixin tuneo-carta {
-    background-color:rgb(16, 15, 15);
+    background-color:$secundario;
     border-radius: 5px;
-    box-shadow: 0px 0px 8px rgb(246, 248, 245);
+    box-shadow: 2px 2px 10px rgb(107, 107, 107);
    padding: 20px;
+   
 
     
     
@@ -193,18 +196,21 @@ $bici:'Square Peg', cursive;
 
 .imgcarta2, .imgcarta4{
 height: $alto +50;
+
 }
 
 
 
+
+
 .titulocarta{
-    color: $primario;
+    color: black;
    
     
 }
 
 .card-text{
-    color: $secundario;
+    color: black;
     margin-top: 20px;
 }
 
