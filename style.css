@@ -37,26 +37,21 @@
   margin-left: 10%;
 }
 
-.presentacion {
-  margin-top: 70px;
-}
-
-.hangar02 {
+.img-presentacion {
   border-radius: 5px;
   -webkit-box-shadow: 0 0 7px #f7f7f7;
           box-shadow: 0 0 7px #f7f7f7;
-  height: 100%;
 }
 
-.hangar02:hover {
+.img-presentacion:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   overflow: hidden;
 }
 
 .textoinicio {
-  font-family: 'Bebas Neue', cursive;
-  color: aliceblue;
+  font-family: 'Odibee Sans', cursive;
+  color: white;
 }
 
 .ft {
@@ -81,8 +76,7 @@
 
 .prs {
   color: white;
-  text-transform: uppercase;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Libre Baskerville', serif;
   font-size: 50px;
   padding: 20px;
 }
@@ -198,12 +192,11 @@
 }
 
 .img-nosotros {
-  max-height: 70vh;
-  aspect-ratio: 16/9;
+  max-height: 50vh;
+  aspect-ratio: 14/9;
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 140vh;
-  margin-left: 8%;
+  max-width: 120vh;
 }
 
 .prs-objetivos {
