@@ -3,9 +3,11 @@ $primario:white;
 $secundario: rgb(237, 236, 236);
 $terciario: rgb(8, 148, 156);
 $cuarto: rgb(156, 240, 169);
+$quinto: black;
 
 //Medidas//
 
+$mediano: 100px;
 $alto: 200px;
 $gordo:400px;
 $flaco:20px;
@@ -27,7 +29,7 @@ $bici:'Square Peg', cursive;
 
 
 
-/*Inicio*/
+/*INICIO*/
 
 
 .fondo{
@@ -40,78 +42,117 @@ $bici:'Square Peg', cursive;
 }
 
 
+
+/*Barra de navegacion*/
+
+
 .img-logo{
     width: auto;
     height: auto;
     margin-left: $petiso +10;
 }
 
+
+
+.navbar-toggler-icon{
+    color: $primario;
+    font-family:'Bebas Neue', cursive; 
+    width: 30px;
+    height: 20px;
+    
+    
+}
+
+
+.navbar-toggler-icon:hover{
+    color: $terciario;
+}
+
+
 .nav-item{
     font-size: $flaco;
-    margin-top: 30px;
+    
 }
+
 
 .navbar{
     box-shadow: 4px 4px 7px rgb(8, 148, 156);
+    background-color: $quinto;
+    opacity: 80%;
 }
+
+
 
 .nav-link{
     color: $primario;
-    margin-top: $bajo +40;
+    margin-top: $flaco;
 }
 
 .nav-link:hover{
     color: $terciario;
 }
 
+
+
+
+
+
+
+/*Slogan*/
+
+
 .SLOGAN{
     font-family:$bici;
-    margin: 30px;
+    margin-top: $bajo;
+   
      color: $terciario;
-     font-size: 50px; 
-     margin-left: 10%;
+     font-size: $bajo; 
+     
 
    
     }
-    
+
+
+
+
+    /*Presentacion hangar*/
 
     
-
-    
-
-
-
-
-.img-presentacion{
-    border-radius: 5px;
-    box-shadow: 0 0 7px rgb(247, 247, 247);
-  
     
 
 
-}
 
+    .carta-titulo {
+        color: $cuarto;
+        font-size: $bajo;
+        font-family: $bici;
+    }
 
-.img-presentacion:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
-    overflow:hidden;
-}
+    .carta-texto{
+        color: $primario;
+        font-family: $autos;
+       font-size: 20px;
+      
+    }
 
-
-
-
-.textoinicio{
-    font-family: 'Odibee Sans', cursive;
-
-    color: $primario;
-
-}
-
+    
 
 
 
 
-//probar//
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,57 +1,66 @@
-/*Inicio*/
+/*INICIO*/
 .fondo {
   background-image: url("imagenes/fondo7.jpg");
   background-position: center;
 }
 
+/*Barra de navegacion*/
 .img-logo {
   width: auto;
   height: auto;
   margin-left: 20px;
 }
 
+.navbar-toggler-icon {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  width: 30px;
+  height: 20px;
+}
+
+.navbar-toggler-icon:hover {
+  color: #08949c;
+}
+
 .nav-item {
   font-size: 20px;
-  margin-top: 30px;
 }
 
 .navbar {
   -webkit-box-shadow: 4px 4px 7px #08949c;
           box-shadow: 4px 4px 7px #08949c;
+  background-color: black;
+  opacity: 80%;
 }
 
 .nav-link {
   color: white;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .nav-link:hover {
   color: #08949c;
 }
 
+/*Slogan*/
 .SLOGAN {
   font-family: "Square Peg", cursive;
-  margin: 30px;
+  margin-top: 50px;
   color: #08949c;
   font-size: 50px;
-  margin-left: 10%;
 }
 
-.img-presentacion {
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 7px #f7f7f7;
-          box-shadow: 0 0 7px #f7f7f7;
+/*Presentacion hangar*/
+.carta-titulo {
+  color: #9cf0a9;
+  font-size: 50px;
+  font-family: "Square Peg", cursive;
 }
 
-.img-presentacion:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  overflow: hidden;
-}
-
-.textoinicio {
-  font-family: 'Odibee Sans', cursive;
+.carta-texto {
   color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
 }
 
 .ft {
